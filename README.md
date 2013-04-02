@@ -1,5 +1,7 @@
 # structures [![Build Status](https://secure.travis-ci.org/mark.selby/structures.png?branch=master)](http://travis-ci.org/mark.selby/structures)
 
+This is old code currently being refactored - don't expect it to work for a few days :-)
+
 Create data structures from SQL queries, especially useful for building API's
 
 ## Getting Started

@@ -1,6 +1,6 @@
 {
-  "name": "structure",
-  "description": "Create data structures from SQL queries, especially useful for building API's",
+  "name": "structures",
+  "description": "Create API's by building data structures from SQL queries",
   "version": "0.1.0",
   "homepage": "",
   "author": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://192.168.123.117/node-api.git"
+    "url": "git://github.com/markselby/node-structures.git"
   },
   "bugs": {
     "url": ""
@@ -21,7 +21,7 @@
       "url": "/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/index",
+  "main": "lib/structure",
   "engines": {
     "node": ">= 0.8.0"
   },
