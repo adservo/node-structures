@@ -1,0 +1,38 @@
+{
+  "name": "structure",
+  "description": "Create data structures from SQL queries, especially useful for building API's",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Mark Selby",
+    "email": "mark@writebox.co.uk",
+    "url": "http://www.writebox.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://192.168.123.117/node-api.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
