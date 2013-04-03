@@ -1,6 +1,6 @@
 'use strict';
 
-var structures = require('../lib/structures.js');
+var structure = require('../lib/structure.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -30,7 +30,7 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(structures.awesome(), 'awesome', 'should be awesome.');
+    test.equal('test', 'test', 'should be placeholder test.');
     test.done();
   },
 };
