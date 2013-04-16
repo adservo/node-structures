@@ -5,18 +5,31 @@ This is old code currently being refactored - don't expect it to work for a few 
 Create data structures from SQL queries, especially useful for building API's
 
 ## Getting Started
-Install the module with: `npm install structures`
-
-```javascript
-var structures = require('structures');
-structures.awesome(); // "awesome"
-```
-
-## Documentation
-_(Coming soon)_
+Install with: `npm install structures`
 
 ## Examples
-_(Coming soon)_
+```javascript
+var Structure = require('structures');
+
+var myStructure = {
+  source: person.list,
+  children: {
+    addresses: {
+      source: person.addresses,
+      key: 'person_id',
+      parent_key: 'id'
+    }
+  }
+}
+
+new Structure(myStructure, { id: 1,2,3,4 })
+  .on('done', function (structure) { console.log(structure); })
+  .on('error', function (err) { console.log(err); })
+  .init();
+
+person.list and person.address should be function which return a database query suitable for use with node-postgres / any-db
+
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
