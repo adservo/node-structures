@@ -26,10 +26,8 @@ new Structure(myStructure, { id: 1,2,3,4 })
   .on('done', function (structure) { console.log(structure); })
   .on('error', function (err) { console.log(err); })
   .init();
-
-person.list and person.address should be function which return a database query suitable for use with node-postgres / any-db
-
 ```
+person.list and person.address should be functions which return a database query suitable for use with node-postgres / any-db.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
