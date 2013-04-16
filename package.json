@@ -1,7 +1,7 @@
 {
   "name": "structures",
-  "description": "Create API's by building data structures from SQL queries",
-  "version": "0.1.0",
+  "description": "Create tree-like data structures from multiple SQL queries. Useful for rich API output.",
+  "version": "0.1.1",
   "homepage": "",
   "author": {
     "name": "Mark Selby",
@@ -38,8 +38,10 @@
   "keywords": [
     "any-db",
     "api",
+    "data",
     "pg",
     "postgres",
-    "sql"
+    "sql",
+    "tree"
   ]
 }
