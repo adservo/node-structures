@@ -1,6 +1,4 @@
-# structures [![Build Status](https://secure.travis-ci.org/mark.selby/structures.png?branch=master)](http://travis-ci.org/mark.selby/structures)
-
-This is old code currently being refactored - don't expect it to work for a few days :-)
+# structures [![Build Status](https://secure.travis-ci.org/markselby/node-structures.png?branch=master)](http://travis-ci.org/markselby/node-structures)
 
 Create data structures from SQL queries, especially useful for building API's
 
@@ -27,7 +25,7 @@ new Structure(myStructure, { id: 1,2,3,4 })
   .on('error', function (err) { console.log(err); })
   .init();
 ```
-person.list and person.address should be functions which return a database query suitable for use with node-postgres / any-db.
+person.list and person.addresses should be functions which return a database query suitable for use with node-postgres / any-db.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
