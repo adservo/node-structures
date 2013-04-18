@@ -1,5 +1,4 @@
-# structures [![Build Status](https://secure.travis-ci.org/markselby/node-structures.png?branch=master)](http://travis-ci.org/markselby/node-structures) [![Dependencies Status](https://david-dm.org/markselby/node-structures.png)](https://david-dm.org/markselby/node-structures
-.png)
+# structures [![Build Status](https://secure.travis-ci.org/markselby/node-structures.png?branch=master)](http://travis-ci.org/markselby/node-structures) ![Dependencies Status](https://david-dm.org/markselby/node-structures.png)
 
 Create data structures from SQL queries, especially useful for building API's
 
