@@ -22,16 +22,19 @@ var structure = require('../lib/structure.js');
     test.ifError(value)
 */
 
-exports.awesome = {
-  setUp: function (done) {
-    // setup here
-    done();
+exports.cheese = {
+  setUp: function (cb) {
+    this.a = 10;
+    cb();
   },
-  'no args': function (test) {
-    test.expect(1);
-    // tests here
-    console.log(structure);
-    test.equal('test', 'test', 'should be placeholder test.');
+  tearDown: function (cb) {
+    cb();
+  },
+  'gorgonzola': function (test) {
+    test.expect(2);
+    this.a++;
+    test.equal(this.a, 11, 'should be placeholder test.');
+    test.ok(true, 'Ok test');
     test.done();
   }
 };
