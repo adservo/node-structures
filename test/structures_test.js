@@ -1,6 +1,7 @@
 'use strict';
 
-var structure = require('../lib/structure.js');
+var Structure = require('../lib/structure.js');
+var pg = require('db').pgPool;
 
 /*
   ======== A Handy Little Nodeunit Reference ========
